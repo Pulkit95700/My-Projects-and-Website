@@ -1,0 +1,112 @@
+body{
+    color: #374643;
+    margin: 0;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 25px;
+}
+#container-1{
+    background-color: #c8e9e5;
+    /* display: inline-block; */
+    padding-top: 10px;
+}
+hr{
+    border: dotted grey 0.3rem;
+    width: 6rem;
+    border-bottom: none;
+    margin: 6rem auto;
+}
+.middle-container{
+    margin: 6rem auto;
+}
+.bgimage img{
+    display: inline-block;
+    width: 800px;
+    position: relative;
+    bottom: 100px;
+}
+.fheading{
+    font-size:5.625rem /* 32px/16px*100 = 200% */;
+    color: #66BFBF;
+    line-height: 8rem;
+    font-family: 'Sacramento', cursive;}
+.fpara{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+.span{
+    text-decoration: underline;
+}
+.cloudimage1 img{
+    position: relative;
+    left: 250px;
+    top: 20px;
+    width: 200px;
+}
+.cloudimage2 img{
+    position: relative;
+    width: 200px;
+    right: 300px;
+}
+.ProfileImage{
+    border-radius: 150px;
+    /* width: 200px;
+    height: 200px; */
+    position: relative;
+    top:10px;
+    border: 1px solid black;
+}
+.web-dev{
+    width: 210px;
+    height: 210px;
+    /* height: 12.5rem; */
+    border: 1px solid black;
+    float: left;
+    margin-right: 2rem;
+    border-radius: 500rem;
+    margin-bottom: 2rem;
+}
+.skill-row{
+    width: 60%;
+    margin: 6rem auto 6rem auto;
+    text-align: left;
+}
+.DSA{
+    border-radius: 200px;
+    border: 1px solid black;
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+a{
+    color: #11999E;
+}
+h2{
+    color: #11999E;
+    padding-bottom: .7rem;
+}
+h3{
+    color: #11999E;
+}
+.skill-row p{
+    text-align: left;
+    line-height: 2rem;
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #c8e9e5;
+    position: relative;
+    top:2rem;
+}
+
+.btn:hover{
+    background-color: rgb(11, 221, 236);
+}
+.bottom-container{
+    background-color: rgb(178, 213, 214);
+}
