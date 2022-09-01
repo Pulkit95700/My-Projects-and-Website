@@ -1,0 +1,368 @@
+/* for making point-box */
+
+.big-letter{
+    font-size: 150%;
+    font-weight: 2;
+}
+.sub-para{
+    color: rgb(75, 74, 74);
+}
+.feature-header{
+    /* color: rgb(75, 74, 74); */
+    text-align: justify;
+}
+.navbar-nav{
+    margin: 2rem;
+}
+.Sign-Up-navbar{
+    margin-top: 20px; 
+    text-align: right;
+}
+.signupbox{
+    opacity: 0.5;
+    background-color: purple;
+    width: 80%;
+    margin: auto;
+    margin-top: 20%;
+    line-height: 2;
+    padding: 10%;
+    height: 60%;
+}
+#SignUp{
+    text-align: center;
+    color: black;
+    font: bold;
+}
+input{
+    margin-top: 10px;
+    width: 100%;
+}
+.forgot{
+    text-align: right;
+}
+.forgot a{
+    color: black;
+}
+.Submit{
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    width: 40%;
+    background-color: black;
+    color: white;
+}
+.Submit:hover{
+    background-color: green;
+}
+@media (max-width: 500px)
+{
+.bg-image-1{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+}
+#header{
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    color: white;
+}
+.logo-image{
+    width: 20%;
+    height: 60px;
+    opacity: 0.7;
+}
+.navbar-brand{
+    font-weight: bold;
+    position: relative;
+    /* right: 60px;    */
+}
+.navbar-toggler{
+    margin-left: auto;
+}
+/* .nav-item{
+    font-weight: bold;
+} */
+.download-btn{
+    position: relative;
+    top: 260px;
+    border-radius: 1rem;
+    background-color: blueviolet;
+    color: white;
+}
+#points-box{
+    padding: 5% 5%;
+    width: 90%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin: 0 0 1rem auto;
+    position: relative;
+    bottom: 200px;
+    background-color: #e9e9e9;
+    z-index: 2;
+    border: 1px solid black;
+}
+.bg-image-2{
+    width: 100%;
+    height: 950px;
+    position: absolute;
+    z-index: -1;
+}
+
+#pricing{
+    width: 100%;
+    height: 950px;
+    /* background-color: antiquewhite; */
+    margin: 3rem auto;
+    padding: 2rem 0;
+}
+.box{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    text-align: justify;
+}
+.image-2{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    border: 2px solid black;
+}
+.pricing-box{
+    /* background-color: black; */
+    width: 80%;
+    margin: 1.5rem auto;
+    height: 250px;
+    border-radius: 10%;
+    padding: 1rem;
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+}
+.goals{
+    /* text-decoration: underline solid aqua; */
+    color: yellow ;
+    font-weight: bold;
+}
+.underline{
+    color: aqua;
+}
+#unknown-section{
+    height: 600px;
+    padding: 5% 5%;
+    text-align: justify;
+}
+.bg-image-3{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#footer{
+    height: 400px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.icons{
+    color: white;
+    margin-bottom: 0.5rem;
+}
+.icons:hover{
+    color: cyan;
+}
+.footer-box{
+    margin-top: 2rem;
+    text-align: center;
+}
+.footer-para{
+    color: white;
+}
+.Thanks{
+    color: purple;
+}
+.footer-note{
+    color: yellow;
+    text-align: center;
+}
+
+}
+@media(min-width: 501px)
+{
+    body{
+        font-size: 1.5rem;
+    }
+    .bg-image-1{
+        width: 100%;
+        height: 1100px;
+        position: absolute;
+        z-index: -1;
+    }
+    #header{
+        width: 100%;
+        height: 600px;
+        z-index: 1;
+        color: white;
+    }
+    .logo-image{
+        width: 20%;
+        height: 60px;
+        opacity: 0.7;
+    }
+    .navbar-brand{
+        font-weight: bold;
+        position: relative;
+        /* right: 60px;    */
+    }
+    .navbar-toggler{
+        margin-left: auto;
+    }
+    /* .nav-item{
+        font-weight: bold;
+    } */
+    .download-btn{
+        position: relative;
+        top: 370px;
+        width: 300px;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        background-color: blueviolet;
+        color: white;
+    }
+    #points-box{
+        padding: 5% 5%;
+        width: 90%;
+        height: auto;
+        /* border: 2px solid red; */
+        margin: auto;
+        position: relative;
+        bottom: 50px;
+        background-color: #e9e9e9;
+        font-family: 'Verdana', sans-serif;
+        }
+
+    .box{
+        width: 100%;
+        height: auto;
+        padding: auto;
+        margin: auto;
+        text-align: justify;
+
+    }
+    /* #image-section{
+        width: 100%;
+        height: 200px;
+        position: relative;
+    } */
+    .image-1{
+        width: 100%;
+        height:400px;
+    }
+    .bg-image-2{
+        width: 100%;
+        height: 1200px;
+        position: absolute;
+        z-index: -1;
+    }
+    #pricing{
+        width: 100%;
+        height: 1200px;
+        /* background-color: antiquewhite; */
+        margin: 3rem auto;
+        padding: 2rem 0;
+    }
+    .image-2{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 20%;
+        border: 2px solid black;
+    }
+    .pricing-box{
+        background-color: black;
+        width: 60%;
+        margin: 1.5rem auto;
+        height: 350px;
+        border-radius: 10%;
+        padding: 1rem;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 1.5;
+    }
+    .goals{
+        /* text-decoration: underline solid aqua; */
+        color: yellow ;
+        font-weight: bold;
+    }
+    .underline{
+        color: aqua;
+    }
+    #unknown-section{
+        height: 800px;
+        padding: 5% 5%;
+    }
+    .bg-image-3{
+        height: 900px;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    #footer{
+        height: 400px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        margin: auto;
+    }
+    .icons{
+        color: purple;
+        margin-bottom: 0.5rem;
+    }
+    .icons:hover{
+        color: white;
+    }
+    .footer-box{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .footer-para{
+        color: white;
+    }
+    .Thanks{
+        color: purple;
+    }
+    .footer-note{
+        color: yellow;
+        text-align: center;
+    }
+    .signupbox{
+        opacity: 0.5;
+        background-color: purple;
+        width: 80%;
+        margin: auto;
+        margin-top: 20%;
+        line-height: 2;
+        padding: 10%;
+        height: 90%;
+    }
+    #SignUp{
+        text-align: center;
+        color: black;
+        font: bold;
+    }
+    input{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .forgot{
+        text-align: right;
+    }
+    .forgot a{
+        color: black;
+    }
+    .Submit{
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+        width: 40%;
+        background-color: rgb(192, 192, 93);
+    }
+}
