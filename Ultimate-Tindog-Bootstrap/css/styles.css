@@ -1,0 +1,146 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+.colored-section{
+    background-color: #ff4c68;
+}
+.white-section{
+    background-color: #fff;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-brand{
+    font-size: 3rem;
+} 
+.nav-item{
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #8f8f8f;
+}
+.row{
+    margin-top: 3rem;
+}
+#title .container-fluid{
+    padding: 3% 8% 10%;
+    line-height: 1.5;
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat',sans-serif;
+}
+h1{
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.btn{
+    margin: 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.phone-image{
+    width: 30%;
+    /* margin-top: 2re;    */
+    transform: rotate(25deg);
+    /* position: relative; */
+    position: absolute;
+    right: 20%;
+}
+@media(max-width: 991px)
+{
+    #title{
+        text-align: center;
+    }
+    .phone-image{
+        transform: rotate(0deg);
+        position: static;
+        width: 50%;
+    }
+}
+#features{
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    line-height: 1.5;
+    padding: 4.5%;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    color:#8f8f8f;
+}
+.icons{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    color: white;
+    line-height: 1.5;
+    background-color: #ef8172;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat';
+}
+.testimonial-image{
+    text-align: center;
+    width: 15%;
+    border-radius: 100%;
+    /* margin-bottom: 5rem; */
+    margin-top: 5rem;
+}
+#press{
+    background-color: #ef8172;
+}
+#press .container-fluid{
+    padding: 3% 10%;    
+}
+.press-image{
+    width: 20%;
+    margin-bottom: 3rem;
+}
+#pricing{
+    text-align: center;
+}
+.card{
+    margin: 1rem;
+}
+.f-button{
+    width: 100%;
+    /* margin: auto; */
+}
+.s-button{
+    width: 100%;
+    /* margin: 2rem  */
+}
+
+.last-heading{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    font-weight: lighter;
+}
+.footer-icon{
+    margin: 1rem;
+    color: black;
+}
+.copyright{
+    font-size: .75rem;
+    margin-top: 2rem;
+}
