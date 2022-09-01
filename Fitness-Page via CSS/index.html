@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("images/bg.jpg");
+        height: 1000px;
+    }
+    .left{
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        top: 8px;
+    }
+    .logo{
+        width: 160px;
+        height: 80px;
+    }
+    .mid{
+        /* border: 2px solid green; */
+        display: block;
+        width: 40%;
+        margin: 34px auto;
+        position: relative;
+    }
+    .navbar{
+        
+    }
+    .tabs{
+        display: inline;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    a:hover{
+        /* background-color: rgb(123, 130, 134); */
+        color: rgb(243, 255, 16);
+    }
+    li{
+        list-style: none;
+        display: inline;
+    }
+    .right{
+        position: absolute;
+        /* border: 2px solid blue; */
+        display: inline-block;
+        right: 48px;
+        top: 34px;
+    }
+    .email{
+        cursor: pointer;
+        border: 2px solid black;
+        padding: 4px;
+        text-align: center;
+        margin: auto auto;
+        color:rgb(11, 179, 235);
+        font-weight: bolder;
+        font-size: 16px;
+        width: 96px;
+        border-radius: 56px;
+    }
+    .email:hover{
+        background-color:#f36565;
+        color: black;
+        border-color: yellow;
+    }
+    .content{
+        /* border: 3px solid red; */
+        width: 1100px;
+        height: 500px;
+        margin: auto;
+        position: relative;
+        top: 25px;
+    }
+    .contentimage{
+        display: inline;
+        border: 3px solid white;
+        width: 600px;
+        height: 400px;
+        margin: 49px auto;  
+    }
+    .enroll{
+        position: absolute;
+        top: 208px;
+        right: 73px;
+        background-color: #e24d4d;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 315px;
+        height: 48px;
+        color: white;
+        /* font-family: cursive; */
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .enroll:hover{
+        background-color: #e47a7a;
+    }
+    .entries
+    {
+        margin: 50px auto;
+        /* border: solid black ; */
+        width: 250px;
+        height: 200px;
+        padding: 10px;
+        text-align: center;
+    }
+    .joinus{
+        margin: 0px;
+        text-align: center;
+        color: white;
+        /* font-weight: lighter; */
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-size: 36px;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+    }
+    .form-group input{
+        width: 242px;
+        height: 30px;
+        border-radius: 100px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <div class="container">
+        <header class="header">
+            <!-- left box for logo -->
+            <div class="left">
+                <img src="images/logo.png" alt="" class="logo">
+            </div>
+            <!-- mid box for navigation -->
+            <div class="mid">
+                <nav class="navbar">
+                    <ul class="tabs">
+                        <li><a href="#">Home</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr>
+            <!-- right boc for buttons -->
+            <div class="right">
+                <p class="email">E-mail
+                </p>
+            </div>
+        </header>
+        <div class="content">
+            <img src="images/bg.jpg" alt="" class="contentimage">
+            <button class="enroll">ENROLL NOW</button>
+        </div>
+
+        <div class="entries">
+            <p class="joinus">JOIN US</p>
+            <form action="noaction.php" class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="password" placeholder="Password">
+                <input type="text" placeholder="E-mail">
+                <input type ="text"  placeholder="Phone no">
+                <!-- <input type = "submit> -->
+            </form>
+        </div>
+    </div>
+</body>
+</html>
