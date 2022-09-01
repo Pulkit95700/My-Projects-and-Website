@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: rgb(224, 223, 223);
+}
+.sign-up-container{
+    margin-top: 4%;
+    display: inline-block;
+}
+.display-5{
+    margin: 5% auto;
+}
+input{
+    display: block;
+    text-align: center;
+    margin: auto;
+    height: 3.5rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    border: 2px solid grey;
+}
+.sign-up-container input[type = "text"]{
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+}
+.sign-up-container input[type = "email"]{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+
+}
+.sign-up-container input[type = "password"]{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+.form-signup{
+    width: auto;
+}
