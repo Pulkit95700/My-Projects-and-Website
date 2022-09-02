@@ -18,7 +18,7 @@ app.get("/", function(request, response){
 app.post("/", function(request, response){
     const query = request.body.cityName;
 
-    const urlGeocodingApi = "https://api.openweathermap.org/geo/1.0/direct?q="+query+"&appid=93850d750ff715016139f02eebed56e2"; 
+    const urlGeocodingApi = "https://api.openweathermap.org/geo/1.0/direct?q="+query+"&appid="*************"; 
     https.get(urlGeocodingApi, function(res){
         res.on("data", function(data){
             const geocodingData = JSON.parse(data);
