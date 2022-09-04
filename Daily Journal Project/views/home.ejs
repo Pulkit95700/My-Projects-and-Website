@@ -1,0 +1,21 @@
+<%- include("partials/header") -%>
+<section id="contentContainer">
+    <div class="container">
+        <h2>Home</h2>
+        <div class="contentBox">
+            <p class="paraContent"><%= Content %></p>
+        </div>
+        <% for(var i=0;i<posts.length;i++) { %> 
+            <h3><%= posts[i].title %></h3>
+            <div class="contentBox">
+                <p class="paraContent"><%= posts[i].postData.substring(0,100) + "..." %>
+                    <% if(posts[i].postData.length > 100) {%>
+                        <a href="/post/<%= posts[i].title %> " class="linkPost">Read More</a> 
+                    <% } %>                 
+                </p>
+
+                </div>
+        <% } %> 
+    </div>
+</section>
+<%- include("partials/footer") -%>

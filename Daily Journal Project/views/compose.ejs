@@ -1,0 +1,16 @@
+<%- include("partials/header") -%>
+<section id="contentContainer">
+    <div class="container">
+        <h2>Compose</h2>
+        <div class="publishBox">
+            <form action="/compose" method="post" class="postForm">
+                <h5 class="label">Title</h5>
+                <input class = "titleInput hover-data" type="text" name="titleData">
+                <h5 class="label">Post</h5>
+                <textarea class="hover-data" name="postData" id="post"></textarea>
+                <button class = "btn btn-primary" type="submit">Publish</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- <%- include("partials/footer") -%> -->

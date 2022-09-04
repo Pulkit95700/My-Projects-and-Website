@@ -1,0 +1,45 @@
+.nav-item{
+    margin-right: 2rem;
+}
+.nav-link{
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+}
+#contentContainer{
+    margin-top: 2rem;
+}
+.titleInput{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.postForm{
+    margin-top: 2rem;
+}
+.hover-data:hover{
+    border: 1px solid red;
+}
+#post{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+.linkPost{
+    text-decoration: none;
+}
+.linkPost:hover{
+    text-decoration: underline;
+}
