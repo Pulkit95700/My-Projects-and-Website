@@ -1,0 +1,20 @@
+Plan
+
+Problems
+1.) make a simple webpage to accept the file.
+via simple input type=file
+
+2.) get the file to the server.
+via body-parser
+
+3.) read and write the file
+done via the npm package xlsx
+
+4.) converting the data into readable format
+The problem was solved by parsing the data into the jSON and then using the convertToNewData that was defined by me to convert the data into the output format
+
+5.) creating the new workbook and sending them to the browser that is exporting the data to another file.
+Problem was solved by the FileSaver package
+
+6.) now sending the data from the server to the client.
+this was done via the res.download() option.
