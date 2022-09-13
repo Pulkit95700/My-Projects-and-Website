@@ -1,5 +1,9 @@
 Plan
 
+Please install npm modules before using the webapp.
+and there is a sample file in the directory and in its output is in the files folder.
+To check the program you can delete the result.xlsx file and then can run the program again.
+
 Problems
 1.) make a simple webpage to accept the file.
 via simple input type=file
