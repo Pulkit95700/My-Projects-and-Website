@@ -6,6 +6,6 @@ const {registerUser} = require("../controllers/userController");
 const router = express.Router();
 
 
-router.post("/", registerUser);
+router.get("/", registerUser);
 
 module.exports = router;
