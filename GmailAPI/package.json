@@ -1,0 +1,30 @@
+{
+  "name": "gmail-api",
+  "version": "1.0.0",
+  "description": "An Api which sends the functioning of the verification of the email addresses.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Pulkit"
+  },
+  "author": "Pulkit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.2",
+    "nodemailer": "^6.8.0",
+    "validatorjs": "^3.22.1"
+  }
+}

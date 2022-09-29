@@ -1,0 +1,29 @@
+<body style="margin: 0;border: 0;padding: 0;font-family: 'Ubuntu', sans-serif;">
+<div class="container" style="width: 100vw;padding: 2rem 3rem;background-color: #EBEFF4;box-shadow: 0 0 10px #767676;line-height: 1.3;color: #3F3A3A;font-weight: 600;">
+    <div class="container__heading" style="font-weight: bolder;font-size: large;margin-bottom: 2rem;">
+        <img src="cid:logo" style="margin: 0px 0.5rem auto auto;width: 80px;float: left;" class="logo">
+      <h1>slack</h1>
+    </div>
+    <div class="container__content" style="margin-bottom: 2rem;border-bottom: 1px solid black;">
+      <h1 style="color: #3F3A3A;margin-bottom: 0.5rem;">Confirm your email address to get started on Slack</h1>
+      <p style=" margin-bottom: 1.5rem;">Once you've confirmed that <span class="container__email" style="color: blue;font-weight: bold;"><%=mail%></span> is your email address, we'll help you find your Slack workspace or create a new one.</p>
+      <p style=" margin-bottom: 1.5rem;"><b>📲 From Your mobile device,</b> tap the button below to confirm.</p>
+    
+    <button style="border: none;background-color: #3ba93b;padding: 0.8rem 1rem;width: 20rem;border-radius: 5px;font-size: 1.1rem;margin: 1rem 1rem 1rem 0rem;" class="btn">
+      <a style="color: white;text-decoration: none;font-weight: bold;letter-spacing: 0.1em;" href="http://localhost:<%=port%>/api/auth/users/<%=token%>" >Confirm Email Address</a>
+    </button>
+      <br>
+      <br>
+      <p>If you didn't request this email, there's nothing to worry about -- you can safely ignore it.</p>
+    </div>
+
+    <div class="container__footer" style="text-align: center; line-height: 1.5;">
+      <p class="para-center">Made by Slack Technologies, Inc</p>
+      <p class="para-center">500 Howard Street | San Francisco, CA 94105 | United States</p>
+      
+      <a class = "container__footer--link" href="#" style="color: black; margin: 2rem;">Our Blog</a>
+      <a class = "container__footer--link" href="#" style="color: black; margin: 2rem;">Email Prerences</a>
+      <a class = "container__footer--link" href="#" style="color: black; margin: 2rem;">Policies</a>
+    </div>
+</div>
+</body>
