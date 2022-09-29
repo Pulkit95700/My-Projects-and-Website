@@ -16,7 +16,7 @@ module.exports.registerUser = async (req, res)=>{
                     res.status(400).send("Email already Present")
                 }
                 else{
-                    sendUser(req.body);
+                    sendUser(req.body);  //saving the user if it is not present...
                     res.status(200).send("confirmation message sent to your email");
                 }
             }
